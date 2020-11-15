@@ -1,0 +1,18 @@
+import logo from './logo.svg';
+import './App.css';
+
+import GetList from "./helpscout";
+
+function App() {
+  return (
+    <div className="App">
+      Some Component <GetList message="Load"/>
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+
+    </div>
+  );
+}
+
+export default App;
